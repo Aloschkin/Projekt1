@@ -121,7 +121,7 @@ var PROJECTS = [
     summary: "Bauleistungen klar, Anfrage leicht – umgesetzt in Worldsoft.",
     tags: ["Webdesign", "SEO", "Google Business", "Worldsoft"],
     images: {
-      desktop: "assets/kinsvaterbau.png",
+      desktop: "assets/kinsvaterbau.webp",
       logo: "assets/kinsvaterbau-logo.webp",
       alt: "Website-Kachel für Kinsvater Bau – Baustellenmotiv",
     },
@@ -134,7 +134,7 @@ var PROJECTS = [
     summary: "Infos sortiert, Anfrageprozess vereinfacht – Worldsoft.",
     tags: ["Webdesign", "Google Business", "UX", "Worldsoft"],
     images: {
-      desktop: "assets/transsib.png",
+      desktop: "assets/transsib.webp",
       logo: "assets/transsib-logo.png",
       alt: "Website-Kachel für Trans Sib – Logistik & Transport",
     },
@@ -147,7 +147,7 @@ var PROJECTS = [
     summary: "Mehr Anrufe, schnelle Ladezeit, lokale Sichtbarkeit.",
     tags: ["SEO", "Performance", "Ads", "Google Business", "Shopware"],
     images: {
-      desktop: "assets/mileo24.png",
+      desktop: "assets/mileo24.webp",
       logo: "assets/mileo24-logo.png",
       alt: "Website-Kachel für Mileo24 – Fliesen & Showroom",
     },
@@ -160,7 +160,7 @@ var PROJECTS = [
     summary: "Buchung & Auffindbarkeit verbessert.",
     tags: ["SEO", "Webdesign", "Ads", "Google Business", "Worldsoft"],
     images: {
-      desktop: "assets/beautypoint.png",
+      desktop: "assets/beautypoint.webp",
       logo: "assets/beautypoint-logo.webp",
       alt: "Website-Kachel für Beauty Point Moselle – Beauty & Kosmetik",
     },
@@ -173,7 +173,7 @@ var PROJECTS = [
     summary: "Eigene Seite – modern & performant.",
     tags: ["Frontend", "SEO", "Ads", "Google Business", "Worldsoft"],
     images: {
-      desktop: "assets/websolution.png",
+      desktop: "assets/websolution.webp",
       logo: "assets/websolution24-logo.webp",
       alt: "Website-Kachel für WebSolution24 – Minimaler Workspace",
     },
@@ -186,7 +186,7 @@ var PROJECTS = [
     summary: "Deutlich mehr Anfragen durch SEO & Ads.",
     tags: ["SEO", "Webdesign", "Ads", "Google Business", "Wix"],
     images: {
-      desktop: "assets/weinerlebenbeth.png",
+      desktop: "assets/weinerlebenbeth.webp",
       logo: "assets/logo-weinhaus-beth.jpg",
       alt: "Website-Kachel für WeinErleben Beth – Wein & Erlebnis",
     },
