@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebSolution24 – Portfolio von Alexej Loschkin</title>
+    <meta
+      name="description"
+      content="WebSolution24: Worldsoft-Websites, SEO & Google Ads. Portfolio und Kontakt von Alexej Loschkin."
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon.png?v=2"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <!-- Header (sticky) -->
+    <header class="site-header">
+      <a href="#home" class="brand" aria-label="Startseite">
+        <img
+          class="logo logo-light"
+          src="assets/logo-light.png"
+          alt="WebSolution24 Logo"
+        />
+        <img
+          class="logo logo-dark"
+          src="assets/logo-dark.png"
+          alt="WebSolution24 Logo"
+        />
+      </a>
+
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <div class="nav-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#about" class="nav-link">Über mich</a>
+          <a href="#projects" class="nav-link">Projekte</a>
+          <a href="#contact" class="nav-link">Kontakt</a>
+        </div>
+
+        <button
+          id="theme-toggle"
+          class="icon-btn"
+          aria-label="Darstellung umschalten"
+          aria-pressed="false"
+          title="Dark/Light umschalten"
+        >
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle
+              cx="12"
+              cy="12"
+              r="4"
+              stroke="currentColor"
+              stroke-width="1.5"
+              fill="none"
+            />
+            <path
+              d="M12 2v2.5M12 22v-2.5M2 12h2.5M22 12h-2.5M5.76 5.76 4.34 4.34M18.24 5.76 19.66 4.34M5.76 18.24 4.34 19.66M18.24 18.24 19.66 19.66"
+              stroke="currentColor"
+              stroke-width="1.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+          </svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+
+        <button
+          id="nav-toggle"
+          class="burger"
+          aria-label="Menü öffnen"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+        >
+          <svg
+            class="burger-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="28"
+            height="28"
+            aria-hidden="true"
+          >
+            <line
+              x1="3"
+              y1="6"
+              x2="21"
+              y2="6"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <line
+              x1="3"
+              y1="12"
+              x2="21"
+              y2="12"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+            <line
+              x1="3"
+              y1="18"
+              x2="21"
+              y2="18"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Offcanvas-Menü -->
+      <nav id="mobileNav" class="mobile-nav" aria-label="Mobiles Menü" hidden>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#about" class="nav-link">Über mich</a>
+        <a href="#projects" class="nav-link">Projekte</a>
+        <a href="#contact" class="nav-link">Kontakt</a>
+      </nav>
+      <div id="navBackdrop" class="nav-backdrop" hidden></div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="hero section" data-reveal="fade">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>Klare Websites. Spürbare Ergebnisse.</h1>
+            <p class="lead">
+              Ich bin <strong>Alexej Loschkin</strong>. Ich baue Websites mit
+              <strong>Worldsoft</strong> und sorge mit <strong>SEO</strong> &
+              <strong>Google Ads</strong> für Anfragen. Parallel vertiefe ich
+              <strong>Figma</strong>, <strong>Webflow</strong> und modernes
+              <strong>HTML · CSS · JS</strong>.
+            </p>
+            <div class="cta">
+              <a href="#projects" class="btn primary">Projekte ansehen</a>
+              <a href="#contact" class="btn ghost">Kontakt</a>
+            </div>
+          </div>
+          <div class="hero-visual" data-parallax>
+            <img
+              src="assets/websolution24-office.webp"
+              alt="Arbeitsumgebung für Webentwicklung"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section" data-reveal="slide-up">
+        <h2>Tools & Skills</h2>
+        <p class="muted">
+          Produktiv mit <strong>Worldsoft</strong>. Konzepte & Prototypen in
+          <strong>Figma</strong> und <strong>Webflow</strong>. Fundiert mit
+          <strong>HTML · CSS · JavaScript</strong>.
+        </p>
+        <ul class="stack-list">
+          <li>Worldsoft CMS</li>
+          <li>SEO · Google Ads</li>
+          <li>Figma · Webflow</li>
+          <li>HTML · CSS · JavaScript</li>
+        </ul>
+      </section>
+
+      <!-- Über mich -->
+      <section id="about" class="section" data-reveal="fade">
+        <h2>Über mich</h2>
+        <div class="about-wrap">
+          <div class="about-text">
+            <p>
+              Ich lebe in Traben-Trarbach an der Mosel und arbeite mit lokalen
+              Unternehmen. Ziel: eine klare Seite, die schnell lädt – und
+              Anfragen bringt.
+            </p>
+            <p>
+              Worldsoft für den Betrieb, Figma/Webflow für saubere Konzepte,
+              Frontend-Basics für Tempo und Qualität.
+            </p>
+            <ul class="about-points">
+              <li>Strukturiertes Webdesign, das man versteht</li>
+              <li>Lokales SEO & Google Ads – messbar statt Gefühl</li>
+              <li>Kurze Wege, ehrliche Beratung, zügige Umsetzung</li>
+            </ul>
+          </div>
+          <figure class="about-photo">
+            <img
+              src="assets/Alexej Loschkin.jpg"
+              alt="Alexej Loschkin Porträt"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- Projekte -->
+      <section id="projects" class="section" data-reveal="fade">
+        <div class="section-head">
+          <h2>Ausgewählte Arbeiten</h2>
+          <div class="chips" role="tablist" aria-label="Projektfilter">
+            <button
+              class="chip active"
+              data-filter="all"
+              role="tab"
+              aria-selected="true"
+            >
+              Alle
+            </button>
+            <button class="chip" data-filter="Webdesign" role="tab">
+              Webdesign
+            </button>
+            <button class="chip" data-filter="SEO" role="tab">SEO</button>
+            <button class="chip" data-filter="Ads" role="tab">Ads</button>
+            <button class="chip" data-filter="Worldsoft" role="tab">
+              Worldsoft
+            </button>
+            <button class="chip" data-filter="Shopware" role="tab">
+              Shopware
+            </button>
+            <button class="chip" data-filter="Wix" role="tab">Wix</button>
+          </div>
+        </div>
+        <div id="projectsGrid" class="project-grid" data-tilt-group></div>
+      </section>
+
+      <!-- Kontakt -->
+      <section
+        id="contact"
+        class="section contact-section"
+        data-reveal="slide-up"
+      >
+        <div class="contact-head">
+          <h2>Projekt anfragen</h2>
+          <p class="muted">Zwei, drei Sätze reichen. Ich melde mich heute.</p>
+        </div>
+
+        <form
+          id="contactForm"
+          class="form-card"
+          method="POST"
+          action="https://api.web3forms.com/submit"
+          novalidate
+          autocomplete="off"
+        >
+          <!-- global aus -->
+
+          <input
+            type="hidden"
+            name="access_key"
+            value="12bfa7ac-92ba-41e7-9d46-3ec218755a2e"
+          />
+          <input
+            type="hidden"
+            name="from_name"
+            value="WebSolution24 Portfolio"
+          />
+          <!-- Honeypot: Botcheck, nicht von Autofill befüllt -->
+          <input
+            type="text"
+            name="botcheck"
+            id="botcheck"
+            class="hp"
+            tabindex="-1"
+            aria-hidden="true"
+            autocomplete="off"
+            inputmode="none"
+          />
+          <div class="field" data-field="name">
+            <label for="name">Name*</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              required
+              minlength="2"
+              autocomplete="name"
+              autocapitalize="words"
+            />
+            <span class="hint" aria-live="polite"></span>
+          </div>
+
+          <div class="field" data-field="email">
+            <label for="email">E-Mail*</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              autocomplete="email"
+              autocapitalize="off"
+            />
+            <span class="hint" aria-live="polite"></span>
+          </div>
+
+          <div class="field" data-field="phone">
+            <label for="phone">Telefon</label>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              inputmode="tel"
+              autocomplete="tel"
+              autocorrect="off"
+              autocapitalize="off"
+              placeholder="+49 1521 4993428"
+            />
+            <span class="hint" aria-live="polite"></span>
+          </div>
+
+          <div class="field" data-field="type">
+            <label for="type">Projektart</label>
+            <select
+              id="type"
+              name="type"
+              autocomplete="off"
+              aria-label="Projektart auswählen"
+            >
+              <option>Webdesign</option>
+              <option>SEO</option>
+              <option>Ads</option>
+              <option>Sonstiges</option>
+            </select>
+          </div>
+
+          <div class="field" data-field="budget">
+            <label for="budget">Budget (ca.)</label>
+            <input
+              id="budget"
+              name="budget"
+              type="range"
+              min="500"
+              max="10000"
+              step="500"
+              value="1500"
+              autocomplete="off"
+              aria-describedby="budgetValue"
+            />
+            <div class="range-row">
+              <span class="muted">500 €</span
+              ><strong id="budgetValue">1.500 €</strong
+              ><span class="muted">10.000 €</span>
+            </div>
+          </div>
+
+          <div class="field" data-field="message">
+            <label for="message">Nachricht*</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              minlength="20"
+              rows="6"
+              autocomplete="off"
+              placeholder="Was soll die Seite können? Branche? Timing?"
+            ></textarea>
+            <div class="meta-row">
+              <span class="muted">min. 20 Zeichen</span
+              ><span id="charCount" class="muted">0</span>
+            </div>
+          </div>
+
+          <div class="field" data-field="captcha">
+            <label id="captchaLabel" for="captcha">Sicherheitsfrage*</label>
+            <input
+              id="captcha"
+              name="captcha"
+              type="text"
+              inputmode="numeric"
+              autocomplete="off"
+              required
+            />
+            <span class="hint" aria-live="polite"></span>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" id="privacy" required autocomplete="off" />
+            <span>Ich stimme der Verarbeitung meiner Daten zu.</span>
+          </label>
+
+          <div class="actions">
+            <button type="submit" class="btn primary">Absenden</button>
+            <button type="button" class="btn ghost" id="resetForm">
+              Zurücksetzen
+            </button>
+          </div>
+
+          <div
+            id="formFeedback"
+            class="form-feedback"
+            role="status"
+            aria-live="polite"
+          ></div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 WebSolution24 · Alexej Loschkin · Traben-Trarbach</p>
+    </footer>
+
+    <div
+      id="lightbox"
+      class="lightbox"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+    ></div>
+    <button
+      id="toTop"
+      class="to-top"
+      aria-label="Nach oben scrollen"
+      title="Nach oben"
+    >
+      ↑
+    </button>
+  </body>
+</html>
